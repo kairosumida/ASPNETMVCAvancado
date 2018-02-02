@@ -1,11 +1,11 @@
-﻿using Aula01.DAL;
+﻿using Aula01.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace Aula01.Models
+namespace Aula01.DAL
 {
     public class WincompInitializer : DropCreateDatabaseIfModelChanges<WincompDbContext>
     {
